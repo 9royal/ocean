@@ -13,7 +13,7 @@
 
 線上開啟：[洋流探索室](https://ocean.dg15.chatgpt.site/)。原始碼：[9royal/ocean](https://github.com/9royal/ocean)。
 
-Sites 與 GitHub 使用私人設定；請以獲准的帳號登入。Sites 已完成正式部署，發布與驗證紀錄見 `RELEASE-STATUS.md`。
+網站與 GitHub 存放庫皆已公開。學生直接開啟網站即可操作，不需登入或申請帳號。Sites 已完成正式部署，發布與驗證紀錄見 `RELEASE-STATUS.md`。
 
 ## 使用方式
 
@@ -59,7 +59,7 @@ npm test
 - Sites：`.openai/hosting.json` 綁定本次新建專案。須先推送相符原始碼，再封裝並儲存、部署版本。
 - 其他靜態主機：上傳 `dist/` 的完整內容，包含 `assets/`；無需學生帳號或後端。
 - 部署到另一個全新 Sites 時，不應沿用這份專案識別。應由 Sites 建立新專案並更新 manifest。
-- GitHub 使用 `9royal/ocean` 私人存放庫。未另行指定開源授權，故不附加 LICENSE。
+- GitHub 使用 `9royal/ocean` 公開存放庫。未另行指定開源授權，故不附加 LICENSE。
 
 ## 檔案
 

@@ -6,7 +6,7 @@
 
 - 線上網站：https://ocean.dg15.chatgpt.site/
 - GitHub 原始碼：https://github.com/9royal/ocean
-- Sites 與 GitHub 使用私人設定，未更改既有網站的存取權限。
+- Sites 與 GitHub 已依使用者指示改為公開；學生無需登入即可開啟網站。
 - 新 Sites 專案：`appgprj_6aec1bc2f5008191842a86cea530248c`；沿用已建立的專案，未重複建立。
 
 ## 已完成的發布檢查
@@ -16,7 +16,7 @@
 - 再次通過 JavaScript 語法與科氏模型測試；既有完整課程測試紀錄見 `VERIFICATION-v2.0.1.md`。
 - 重新執行發布 skill 的敏感資訊候選掃描，覆核 D3 色盤的兩個誤判；未發現需移除的金鑰或個資。
 - Sites source helper 完成原始碼推送並封裝相符的靜態部署包。
-- GitHub 私人存放庫 `9royal/ocean` 已建立，用於保存本次發布原始碼。
+- GitHub 公開存放庫 `9royal/ocean` 已建立，用於保存本次發布原始碼。
 
 ## 首次部署的可查證紀錄
 
@@ -27,6 +27,13 @@
 - Chrome 已實際開啟行星風系、表層洋流、風與海的連動、區域放大鏡及科氏實驗；黑潮漂流點、ENSO 聖嬰切換與 v2.0.1 的隱藏圖層修正均已複查。
 
 這份紀錄在首次成功後補入。發布流程會將文件更新後的相同原始碼同步至 Sites 與 GitHub，再次部署；最終提交與部署回條保存於工作區的發布收據。
+
+## 公開分享｜2026-11-05
+
+- Sites 存取模式已設為 `public`（存取設定 revision 2）。
+- 使用未帶 Cookie 或 Authorization 的 HTTP 請求確認首頁與 `app.js` 均回傳 200，沒有跳轉登入頁。
+- GitHub 已完成帳號重新驗證，設定頁確認存放庫為 Public。
+- 網址維持不變；公開存取不另變更程式版本或授權條款。
 
 ## 後續更新
 
