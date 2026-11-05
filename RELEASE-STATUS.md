@@ -1,34 +1,35 @@
-# 洋流探索室 v2.0.1 發布狀態
+# 洋流探索室 v2.0.1 發布紀錄
 
 日期：2026-11-05（臺灣）
 
-## 已完成
+## 發布位置
 
-- 以原始提交 `c850e69104c1712db2719debfe5f0d1b0b29a1a8` 建立獨立發布副本。
-- 保留原專案、原網站與其存取設定。
-- 原始 Ro 品牌素材、繁體中文 README、可攜式測試設定與忽略規則。
-- JavaScript 語法、科氏模型、控制流程、完整課程及邊界測試。
-- 加入 Ro 標誌並調整測試路徑後，已重新通過控制與完整課程測試；390px／320px 的標誌及版面已檢視。
-- 32 個文字檔的敏感資訊候選掃描未命中；原始品牌素材及第三方授權均已保留。
-- 建立新 Sites；project_id：`appgprj_6aec1bc2f5008191842a86cea530248c`。
-- 新 Sites slug：`ocean`；預留網址：https://ocean.dg15.chatgpt.site 。
+- 線上網站：https://ocean.dg15.chatgpt.site/
+- GitHub 原始碼：https://github.com/9royal/ocean
+- Sites 與 GitHub 使用私人設定，未更改既有網站的存取權限。
+- 新 Sites 專案：`appgprj_6aec1bc2f5008191842a86cea530248c`；沿用已建立的專案，未重複建立。
 
-## 尚未完成
+## 已完成的發布檢查
 
-- GitHub 存放庫建立及原始碼上傳。
-- 新 Sites 原始碼推送、版本儲存及正式部署。
-- 正式網址的上線驗證。
+- 以原始修正提交 `c850e69104c1712db2719debfe5f0d1b0b29a1a8` 建立獨立發布副本。
+- 保留 Ro 原始品牌素材、第三方授權、繁體中文 README、版本紀錄及測試。
+- 再次通過 JavaScript 語法與科氏模型測試；既有完整課程測試紀錄見 `VERIFICATION-v2.0.1.md`。
+- 重新執行發布 skill 的敏感資訊候選掃描，覆核 D3 色盤的兩個誤判；未發現需移除的金鑰或個資。
+- Sites source helper 完成原始碼推送並封裝相符的靜態部署包。
+- GitHub 私人存放庫 `9royal/ocean` 已建立，用於保存本次發布原始碼。
 
-新 Sites 尚無已發布版本；預留網址不是已可用網址。
+## 首次部署的可查證紀錄
 
-## 已確認的阻礙
+- Sites 回傳狀態：`succeeded`。
+- 部署 ID：`appgdep_6aec2e0c7cbc8191a7a6831947b2908e`。
+- 來源提交：`d1b23b9e1070d0a859ff8d39dc137ff35a17bced`。
+- 完成時間：2026-11-05 15:19（臺灣）。
+- Chrome 已實際開啟行星風系、表層洋流、風與海的連動、區域放大鏡及科氏實驗；黑潮漂流點、ENSO 聖嬰切換與 v2.0.1 的隱藏圖層修正均已複查。
 
-- 工作區設定停用了外部網路。Sites Git 同步無法解析 `git.chatgpt-team.site`。
-- GitHub 連接器回報 `Unknown tool`；本機 Credential Manager 無法讀取憑證。
-- 使用者已同意同步與發布；目前缺少的是可連網、可驗證 GitHub 身分的執行環境，不需再次詢問相同授權。
+這份紀錄在首次成功後補入。發布流程會將文件更新後的相同原始碼同步至 Sites 與 GitHub，再次部署；最終提交與部署回條保存於工作區的發布收據。
 
-## 接續方式
+## 後續更新
 
-在允許網路且已登入 9royal 的 Codex 環境，開啟此發布副本。沿用 `.openai/hosting.json` 內的新 Sites project_id，不要重建 Sites。重新取得該專案的短期原始碼憑證，透過標準 Sites source helper 推送、封裝及部署；不得把憑證存入程式或發布包。
+維持 `.openai/hosting.json` 的專案 ID。每次修改後先測試、推送相符原始碼並封裝，再儲存及部署 Sites 版本。短期憑證只透過隱藏 stdin 使用，不寫入檔案、Git 或發布包。
 
-GitHub 尚未建立存放庫。未指定公開可見性時使用私人存放庫；未指定授權時不自行附加 LICENSE。確認遠端原始碼與封裝 commit 一致後才可宣告上線。
+未另外指定開源授權，故本次不附加 LICENSE；未要求桌面安裝檔、簡報或 Word 文件，因此不另製作這些成果。

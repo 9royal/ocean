@@ -11,7 +11,9 @@
 
 **程式版本：v2.0.1。** 本份原始碼以既有提交 `c850e69104c1712db2719debfe5f0d1b0b29a1a8` 為基礎，加入原始 Ro 標誌與發布文件。
 
-> 發布狀態：新 Sites 專案已建立，尚未同步或部署。預留網址為 https://ocean.dg15.chatgpt.site 。這不是已上線的保證；詳見 RELEASE-STATUS.md。
+線上開啟：[洋流探索室](https://ocean.dg15.chatgpt.site/)。原始碼：[9royal/ocean](https://github.com/9royal/ocean)。
+
+Sites 與 GitHub 使用私人設定；請以獲准的帳號登入。Sites 已完成正式部署，發布與驗證紀錄見 `RELEASE-STATUS.md`。
 
 ## 使用方式
 
@@ -57,7 +59,7 @@ npm test
 - Sites：`.openai/hosting.json` 綁定本次新建專案。須先推送相符原始碼，再封裝並儲存、部署版本。
 - 其他靜態主機：上傳 `dist/` 的完整內容，包含 `assets/`；無需學生帳號或後端。
 - 部署到另一個全新 Sites 時，不應沿用這份專案識別。應由 Sites 建立新專案並更新 manifest。
-- GitHub 目標帳號為 `9royal`；本次尚未建立或上傳遠端存放庫。可見性與授權尚未另行指定。
+- GitHub 使用 `9royal/ocean` 私人存放庫。未另行指定開源授權，故不附加 LICENSE。
 
 ## 檔案
 
