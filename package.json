@@ -1,0 +1,15 @@
+{
+  "name": "ocean-current-explorer",
+  "version": "2.0.1",
+  "private": true,
+  "description": "洋流探索室｜風與海的四季",
+  "scripts": {
+    "start": "node preview.cjs",
+    "test": "node test-coriolis-physics.cjs && node test-controls.cjs && node test-course.cjs && node test-course-boundaries.cjs",
+    "test:physics": "node test-coriolis-physics.cjs",
+    "test:controls": "node test-controls.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}

@@ -1,0 +1,2 @@
+# Preserve the supplied original brand artwork byte-for-byte on every platform.
+*.svg -text
